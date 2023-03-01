@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+body {
+  overflow-x: hidden;
+}
+span {
+  font-family: "Anton", sans-serif;
+  font-style: italic;
+}
+#image {
+  height: auto;
+}
+#main-view{
+  margin-bottom: 200px;
+}
+@media (max-width: 639px) {
+  #text {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  #image {
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) {
+  body {
+    overflow-x: hidden;
+  }
+  #image {
+    height: auto;
+  }
+  #main-view{
+    margin-bottom: 200px;
+  }
+  #dashboard {
+    position: relative;
+  }
+}
